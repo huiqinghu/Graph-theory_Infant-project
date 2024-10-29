@@ -3,7 +3,7 @@
  
 nsubj = [420]; %number of participants
 timeseries_nos = [1600];% number of timepoints 
-nroi = 217 %%number of regions of interest
+nroi = [217] %%number of regions of interest
 
 % Loop for all participants
 for subjind = 1:nsubj
