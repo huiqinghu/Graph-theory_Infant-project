@@ -67,7 +67,7 @@ end
 for subjind = 1:nsubj
     for roi1 = 1:nroi-1
         for roi2 = roi1+1:nroi
-            for thr = 1:21
+            for thr = 1:numbofthr
                 tempDist_Neonates(thr,1) = AutoFix_Dist_Neonates{thr,subjind}(roi1,roi2);
             end
             avDist_Neonates{subjind}(roi1,roi2) = mean(nonzeros(tempDist_Neonates));
