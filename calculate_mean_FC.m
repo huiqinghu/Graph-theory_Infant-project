@@ -7,3 +7,5 @@ mean_pos = mean(mat_data_pos);
 mean_neg = mean(mat_data_neg);
 mean_abs = mean(mat_data_abs);
 end
+
+%%%%Written by Peter Coppola
